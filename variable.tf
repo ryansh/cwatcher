@@ -43,3 +43,18 @@ variable "aws_region" {
   type = string
   default = "ap-southeast-2"
 }
+
+variable "service_Min" {
+  type = number
+  default = 1
+}
+
+variable "service_Des" {
+  type = number
+  default = 1
+}
+
+variable "service_Max" {
+  type = number
+  default = 4
+}
